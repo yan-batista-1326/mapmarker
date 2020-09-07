@@ -5,14 +5,11 @@
   "main": "server.js",
   "dependencies": {
     "dotenv": "^8.2.0",
-<<<<<<< HEAD
-    "express": "^4.17.1"
-=======
+    "express": "^4.17.1",
     "konva": "^7.0.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
->>>>>>> parent of cef1db0... express
   },
   "devDependencies": {},
   "scripts": {
