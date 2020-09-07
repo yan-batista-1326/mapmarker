@@ -1,0 +1,15 @@
+#canvas {
+    border: 1px solid white;
+    margin: 5px;
+    position: absolute;
+}
+
+#contentCanvas {
+    position: relative;
+    margin: 0 5px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
