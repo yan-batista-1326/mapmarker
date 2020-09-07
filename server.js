@@ -1,10 +1,8 @@
-import 'dotenv';
-
-import express, { static } from 'express';
+const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(static(__dirname + '/build'));
+app.use(express.static(__dirname + '/build'));
 
 if(process.env.NODE_ENV === "production") {
     app.get('*', (req,res) => {
