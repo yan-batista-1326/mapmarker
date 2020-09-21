@@ -180,7 +180,6 @@ export default class Sidebar extends Component {
         return(
             <div className="sidebar">
                 <ul>
-                    <li><img src="https://img.icons8.com/metro/26/000000/cursor.png" alt="cursor_icon"/></li>
                     <li><img src="https://img.icons8.com/ios/50/000000/marker.png" alt="marker_icon" onClick={this.addMarker}/></li>
                     <li><img src="https://img.icons8.com/material-sharp/24/000000/text.png" alt="text_icon" onClick={this.addText}/></li>
                     <li><img src="https://img.icons8.com/ios/50/000000/save.png" alt="save_icon" onClick={this.saveMap}/></li>

@@ -4,14 +4,14 @@ Ferramenta para colocar marcadores customizaveis em mapas. Entre aqui: [Netlify]
 ## Todo
 - [x] Menu de Ferramentas
 - [x] Importar Mapa 
-- [ ] Usar ferramentas
+- [x] Usar ferramentas
     - [x] Texto
         - [x] Colocar texto no mapa
         - [x] Redimensionar texto
         - [x] Rotacionar texto
-    - [ ] Marcador
+    - [x] Marcador
         - [x] Colocar marcadores no mapa
-        - [ ] Popup exibindo informações ao passar mouse sobre marcador
+        - [ ] ~~Popup exibindo informações ao passar mouse sobre marcador~~
         - [ ] ~~Permitir diferentes cores de marcadores para diferentes funções~~
 - [x] Salvar mapa para o dispositivo
 - [ ] ~~Permitir enviar um mapa ja configurado para edição~~
@@ -19,7 +19,6 @@ Ferramenta para colocar marcadores customizaveis em mapas. Entre aqui: [Netlify]
 ## Icones e Fontes usadas
 Icones:
 
-- [Cursor](https://img.icons8.com/metro/26/000000/cursor.png)
 - [Marker](https://img.icons8.com/ios/50/000000/marker.png)
 - [Map Marker](https://img.icons8.com/plasticine/100/000000/place-marker.png)
 - [Text](https://img.icons8.com/material-sharp/24/000000/text.png)
