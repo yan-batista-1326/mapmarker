@@ -19,7 +19,7 @@ export default class Sidebar extends Component {
         //Create Stage
         stage = new Konva.Stage({
             container: 'contentCanvas',
-            width: 1024,
+            width: 720,
             height: 720
         });
 
@@ -169,7 +169,7 @@ export default class Sidebar extends Component {
         if(imageLayer.find('Image').length > 0) { //Check if there is an image to be saved
             let link = document.createElement('a');
             link.download = 'map.png';
-            link.href = stage.toDataURL({pixelRatio: 2});
+            link.href = stage.toDataURL({pixelRatio: 1});
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
