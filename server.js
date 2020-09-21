@@ -7,8 +7,7 @@ app.use(express.static(__dirname + '/build'));
 
 if(process.env.NODE_ENV === "production") {
     app.get('*', (req,res) => {
-        //res.sendFile(__dirname + '/build/index.html');
-        res.status(200).json({message: 'Server is serving'});
+        res.sendFile(__dirname + 'client/build/index.html');
     });
 }
 
