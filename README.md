@@ -12,9 +12,9 @@ Ferramenta para colocar marcadores customizaveis em mapas. Entre aqui: [Netlify]
     - [ ] Marcador
         - [x] Colocar marcadores no mapa
         - [ ] Popup exibindo informações ao passar mouse sobre marcador
-        ~~- [ ] Permitir diferentes cores de marcadores para diferentes funções~~
+        - [ ] ~~Permitir diferentes cores de marcadores para diferentes funções~~
 - [x] Salvar mapa para o dispositivo
-~~- [ ] Permitir enviar um mapa ja configurado para edição~~
+- [ ] ~~Permitir enviar um mapa ja configurado para edição~~
 
 ## Icones e Fontes usadas
 Icones:
