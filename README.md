@@ -1,5 +1,5 @@
 # Map Marker
-Ferramenta para colocar marcadores customizaveis em mapas. [Entre aqui](https://elated-heyrovsky-f06ab8.netlify.app/)
+Ferramenta para colocar marcadores customizaveis em mapas. Entre aqui: [Netlify](https://mapmarker.netlify.app/) | [Heroku](https://mapmarker.herokuapp.com/)
 
 ## Todo
 - [x] Menu de Ferramentas
