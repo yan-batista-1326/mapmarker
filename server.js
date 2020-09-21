@@ -5,10 +5,12 @@ const port = process.env.PORT || 5000;
 app.use(express.static(__dirname + '/build'));
 
 
-app.get('*', (req,res) => {
-    //res.sendFile(__dirname + '/build/index.html');
-    res.status(200).json({message: 'Server is serving'});
-});
+if(process.env.NODE_ENV === "production") {
+    app.get('*', (req,res) => {
+        //res.sendFile(__dirname + '/build/index.html');
+        res.status(200).json({message: 'Server is serving'});
+    });
+}
 
 app.listen(port, () => {
     console.log('Server is ON');
