@@ -104,6 +104,7 @@ export default class Sidebar extends Component {
             let textInput = document.createElement('input');
             textInput.type = "text";
             textInput.id = "insertTextInput";
+            textInput.style.textTransform = "uppercase"
             document.getElementById('contentCanvas').appendChild(textInput);
             textInput.focus();
 
@@ -116,7 +117,6 @@ export default class Sidebar extends Component {
                     konvaText = new Konva.Text({
                         text: textValue.toUpperCase(),
                         fontSize: 20,
-                        fontFamily: 'Roboto',
                         draggable: true,
                         x: stage.width()/2,
                         y: stage.height()/2,
